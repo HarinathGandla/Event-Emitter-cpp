@@ -1,29 +1,68 @@
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# http://www.gnu.org/software/automake
 
-# Precompiled Headers
-*.gch
-*.pch
+Makefile.in
+/ar-lib
+/mdate-sh
+/py-compile
+/test-driver
+/ylwrap
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# http://www.gnu.org/software/autoconf
 
-# Fortran module files
-*.mod
-*.smod
+/autom4te.cache
+/autoscan.log
+/autoscan-*.log
+/aclocal.m4
+/compile
+/config.guess
+/config.h.in
+/config.sub
+/configure
+/configure.scan
+/depcomp
+/install-sh
+/missing
+/stamp-h1
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# https://www.gnu.org/software/libtool/
 
-# Executables
-*.exe
-*.out
-*.app
+/ltmain.sh
+
+# http://www.gnu.org/software/texinfo
+
+/texinfo.tex
+
+**/Makefile
+**/Makefile.in
+build/
+
+.settings
+.autotools
+.cproject
+.project
+
+**/.libs
+**/.deps/
+**/.dirstamp
+**/*.lo
+**/*.o
+**/*.la
+
+config.guess.dh-orig
+config.log
+config.status
+config.sub.dh-orig
+libtool
+m4/
+
+INSTALL
+
+debian/.debhelper/
+debian/debhelper-build-stamp
+debian/files
+debian/zimaserver.debhelper.log
+debian/zimaserver.substvars
+debian/zimaserver/
+
+.kdev4
+*.kdev4
